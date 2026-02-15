@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvSaludo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txt_nombre_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txt_edad_hint"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSaludo"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:height="60dp"
+        android:text="@string/btn_saludar_label"
+        />
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_limpiar_label"
+        />
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/swRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="11sp"
+        android:thumbTint="#FFFFFF"
+        android:text="@string/sw_recordar_label"
+        />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Parcial1_OM100123</string>
+    <string name="txt_nombre_hint">Ingrese su nombre</string>
+    <string name="txt_edad_hint">Ingrese su edad</string>
+    <string name="btn_saludar_label">Saludar</string>
+    <string name="btn_limpiar_label">Limpiar campos</string>
+    <string name="sw_recordar_label">Recordar información</string>
+</resources>
