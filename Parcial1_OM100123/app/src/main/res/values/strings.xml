@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Parcial1_OM100123</string>
+    <string name="txt_nombre_hint">Nombre</string>
+    <string name="txt_edad_hint">Edad</string>
+    <string name="chk_terminos_text">Acepto términos y condiciones</string>
+    <string name="sw_recordar_text">Recordar datos</string>
+    <string name="btn_registrar_text">Registrar</string>
+    <string name="btn_ver_perfil_text">Ver perfil guardado</string>
+    <string name="btn_editar_text">Editar perfil</string>
+</resources>
